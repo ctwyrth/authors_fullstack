@@ -5,9 +5,9 @@ import DeleteButton from './DeleteButton';
 export default props => {
    const [ authors, setAuthors ] = useState(props.authors);
 
-   const removeFromDom = authorId => {
-      setAuthors(authors.filter(author => author._id != authorId));
-   }
+   // const removeFromDom = authorId => {
+   //    setAuthors(authors.filter(author => author._id != authorId));
+   // }
 
    return(
       <div className="container mb-3 text-start">
